@@ -55,27 +55,13 @@ public class MainController
 	public ContactDetail update(@PathVariable String id, @RequestBody Map<String, String> body){
 		String name = body.get("name");
 		String email = body.get("email");
-		return paginationService.update(Long.parseLong(id),
-				name,
-				email);
+		return paginationService.update(Long.parseLong(id),name,email);
 	}
 
 	@DeleteMapping("contact/{id}")
 	public boolean delete(@PathVariable String id){
 		Long contactId = Long.parseLong(id);
 		return paginationService.delete(contactId);
-	}
-
-	@RequestMapping(value = "/contacts/create", method = RequestMethod.GET)
-	public boolean addmultiple(){
-      for(int i=0;i<1000000;i++)
-	  {
-		  String name = "prav"+i;
-		  String email = "prave@gm"+i;
-		  paginationService.add(name,email);
-
-	  }
-		return true;
 	}
 
 }
