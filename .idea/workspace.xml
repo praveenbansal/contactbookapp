@@ -24,6 +24,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4716981">
+              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring-boot-dependencies-1.5.9.RELEASE.pom" pinned="false" current-in-tab="false">
+        <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-dependencies/1.5.9.RELEASE/spring-boot-dependencies-1.5.9.RELEASE.pom">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ContactDetailRepository.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/contact/src/ContactDetailRepository.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -36,10 +56,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainApplicationClass.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainApplicationClass.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/contact/src/MainApplicationClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.16509435">
+            <state vertical-scroll-proportion="0.0">
               <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -96,31 +116,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HttpStatus.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE.jar!/org/springframework/http/HttpStatus.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.9655173">
-              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CrudRepository.class" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.13.9.RELEASE/spring-data-commons-1.13.9.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-4.137931">
               <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SimpleJpaRepository.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/1.11.9.RELEASE/spring-data-jpa-1.11.9.RELEASE.jar!/org/springframework/data/jpa/repository/support/SimpleJpaRepository.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.3448277">
-              <caret line="106" column="16" selection-start-line="106" selection-start-column="16" selection-end-line="106" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -161,12 +161,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/contact/src/BasicController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/contact/src/ContactDetailData.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/contact/src/ContactDetail.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/contact/src/ContactDetailRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/contact/src/PaginationService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/contact/src/ContactDetailService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/contact/src/MainController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -646,15 +646,15 @@
       <workItem from="1539878794068" duration="2050000" />
       <workItem from="1539880852589" duration="3309000" />
       <workItem from="1540018698707" duration="5114000" />
-      <workItem from="1540025689401" duration="25740000" />
+      <workItem from="1540025689401" duration="26074000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36213000" />
+    <option name="totallyTimeSpent" value="36547000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1855" height="1056" extended-state="7" />
+    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -858,14 +858,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5737705">
-          <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/1.11.9.RELEASE/spring-data-jpa-1.11.9.RELEASE.jar!/org/springframework/data/jpa/repository/JpaRepository.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.6206896">
@@ -966,11 +958,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/contact/src/MainApplicationClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16509435">
+        <state vertical-scroll-proportion="0.0">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-dependencies/1.5.9.RELEASE/spring-boot-dependencies-1.5.9.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4716981">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
