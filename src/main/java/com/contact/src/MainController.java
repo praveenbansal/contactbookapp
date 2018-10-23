@@ -25,17 +25,17 @@ public class MainController
 
 
 	@RequestMapping(value = "/contacts", method = RequestMethod.GET)
-	public List<ContactDetail> getPage(@RequestParam(name = "p", defaultValue = "1") int pageNumber){
+	public List<ContactDetail> getPage(@RequestParam(name = "page", defaultValue = "1") int pageNumber){
 		return paginationService.getPage(pageNumber);
 	}
 
-	@GetMapping("/contact/{id}")
-	public ContactDetail show(@PathVariable String id){
+	@GetMapping("/contact")
+	public ContactDetail show(@RequestParam(name = "id") String id){
 		Long contactId = Long.parseLong(id);
 		return paginationService.show(contactId);
 	}
 
-	@PostMapping("/contact/search")
+	@PostMapping("/contacts")
 	public List<ContactDetail> search(@RequestBody Map<String, String> body){
 		String name = body.get("name");
 		String email = body.get("email");
@@ -51,15 +51,15 @@ public class MainController
 
 	}
 
-	@PutMapping("/contact/{id}")
-	public ContactDetail update(@PathVariable String id, @RequestBody Map<String, String> body){
+	@PutMapping("/contact")
+	public ContactDetail update(@RequestParam(name = "id") String id, @RequestBody Map<String, String> body){
 		String name = body.get("name");
 		String email = body.get("email");
 		return paginationService.update(Long.parseLong(id),name,email);
 	}
 
-	@DeleteMapping("contact/{id}")
-	public boolean delete(@PathVariable String id){
+	@DeleteMapping("contact")
+	public boolean delete(@RequestParam(name = "id") String id){
 		Long contactId = Long.parseLong(id);
 		return paginationService.delete(contactId);
 	}

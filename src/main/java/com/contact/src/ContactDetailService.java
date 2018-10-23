@@ -11,7 +11,7 @@ import java.util.List;
 @Service
 public class ContactDetailService
 {
-	private final static int PAGESIZE = 3;
+	private final static int PAGESIZE = 10;
 
 	@Autowired
 	ContactDetailRepository repository;
@@ -36,6 +36,8 @@ public class ContactDetailService
 	public ContactDetail update(Long id,String name,String email)
 	{
 		ContactDetail contactDetail = repository.findById(id);
+		contactDetail.setUser(name);
+		contactDetail.setEmail(email);
 
 		return repository.save(contactDetail);
 	}
