@@ -37,6 +37,8 @@ Delete Request     https://contactbook1.herokuapp.com/contact?id=5
 
 Mysql Migration:
 
+Create Database restapi;
+
 CREATE TABLE contact_detail (
   id bigint(20) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
   user VARCHAR(500) NOT NULL,
